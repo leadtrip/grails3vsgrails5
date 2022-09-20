@@ -1,0 +1,9 @@
+println "Loading for ${project.name}..."
+repositories {
+
+}
+grails {
+    plugins {
+        implementation project(':IMSDomainPlugin')
+    }
+}
