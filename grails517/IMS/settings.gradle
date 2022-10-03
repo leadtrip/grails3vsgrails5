@@ -1,5 +1,0 @@
-include 'IMSPlugin'
-project(':IMSPlugin').projectDir = new File('../IMSplugin')
-include 'IMSDomainPlugin'
-project(':IMSDomainPlugin').projectDir = new File('../IMSDomainPlugin')
-rootProject.name="IMS"
